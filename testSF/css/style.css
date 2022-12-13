@@ -1,0 +1,55 @@
+
+body {
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.online-control-repair-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.online-control-repair-vide__wrapper img {
+  width: 100%;
+}
+
+.online-control-repair-vide__wrapper {
+  position: relative;
+}
+
+.online-control-repair-video__btn {
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  background-color: #E3B873;
+  width: 85px;
+  height: 85px;
+  margin-top: 174px;
+}
+
+.overlay{
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+
+}

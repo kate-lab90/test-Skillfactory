@@ -1,0 +1,204 @@
+.leave-a-request{
+  margin-top: 59px;
+}
+
+.types-of-repair{
+  background: url("../img/bg.jpg") 12% 92% no-repeat;
+}
+
+.types-of-repair__box{
+  display: flex;
+  margin-bottom: 53px;
+  height: 608px;
+}
+
+.types-of-repair__box > div:nth-child(2){
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.types-of-repair__title{
+  color: $color-text-dark;
+}
+
+.types-of-repair-preview{
+  position: relative;
+}
+
+.types-of-repair-preview-text{
+  padding-top: 25px;
+  padding-left: 31px;
+  position: absolute;
+  margin-top: -132px;
+  margin-left: 30px;
+  width: 286px;
+  height: 330px;
+  background-color: $color2;
+  color: $color-text-the-lightest;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+  font-size: 13px;
+  line-height: 27px;
+  width: 330px;
+}
+
+.types-of-repair-preview-text h3{
+  margin-bottom: 13px;
+  color: $color-text-lighter;
+  font-size: 18px;
+  line-height: 25px;
+
+}
+
+.types-of-repair-preview__button{
+  padding: 17px 18px;
+  width: 228px;
+  height: 54px;
+  margin-top: 57px;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-left: -26px;
+  font-family: $heading-font;
+}
+
+.types-of-repair__request{
+  display: flex;
+  margin-top: 258px;
+  margin-bottom: 242px;
+  justify-content: flex-end;
+
+}
+
+.types-of-repair__request-item{
+  line-height: 19px;
+  font-size: 14px;
+  margin-top: 102px;
+  display: flex;
+  align-items: center;
+}
+
+.types-of-repair__request-item:first-of-type{
+  margin-top: 11px;
+}
+
+.types-of-repair__request-box{
+  margin-right: 131px;
+}
+
+.types-of-repair__request-item span{
+  color: $color2;
+  border-radius: 50%;
+  background-color: $color-site;
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: 21px;
+  height: 41px;
+  width: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  background-color: $color3;
+  color: $color2;
+}
+
+.types-of-repair__form{
+  height: 509px;
+  width: 506px;
+}
+
+.form h4{
+  text-align: center;
+  color: $color2;
+  font-weight: 400;
+}
+
+.types-of-repair__form h4{
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 39px;
+  padding-top: 28px;
+}
+
+.form label{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+  line-height: 21px;
+  background-color: $color3;
+}
+
+.types-of-repair__form label{
+  margin-left: 49px;
+}
+
+.form input{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  outline: none;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  background-color: $color3;
+  color: $color2;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.types-of-repair__form input{
+  margin-left: 49px;
+  padding-bottom: 3px;
+  width: 408px;
+}
+
+.form input::placeholder{
+  color: $color2;
+}
+
+.types-of-repair__form .name{
+  margin-bottom: 48px;
+}
+
+.types-of-repair__form .phone{
+  margin-bottom: 48px;
+}
+
+.types-of-repair__form .email{
+  margin-bottom: 17px;
+}
+
+.types-of-repair__checkbox-text{
+  color: $color2;
+}
+
+.types-of-repair__form-btn{
+  padding: 16px 21px 19px 22px;
+  width: 213px;
+  height: 51px;
+  margin-left: 244px;
+  margin-top: 39px;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.types-of-repair__request-saving{
+  margin-top: 38px;
+  margin-left: 31px;
+  display: flex;
+  align-items: center;
+}
+
+.types-of-repair__request-saving p{
+  color: $color-site;
+  margin-left: 25px;
+}
+
+.types-of-repair__request-circle{
+  background-color: $color-site;
+  border-radius: 50%;
+  height: 72px;
+  width: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

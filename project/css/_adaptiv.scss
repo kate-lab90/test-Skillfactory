@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 1300px){
+
+  .wrapper{
+    max-width: 600px;
+  }
+
+  .header{
+    height: 57px;
+  }
+
+   nav{
+    display: none;
+  }
+
+  .button__header{
+    display: none;
+  }
+
+  .header-phone{
+    text-decoration: none;
+  }
+
+  .hero{
+    height: 476px;
+    padding-top: 85px;
+  }
+
+  .title{
+    font-size: 23px;
+    line-height: 31px;
+  }
+
+  .hero-text{
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+}

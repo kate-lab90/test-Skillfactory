@@ -1,0 +1,84 @@
+.our-clients h3{
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $color-text-dark;
+  font-family: $heading-font;
+  margin-bottom: 13px;
+}
+
+.our-clients__text-recommend{
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: $color-text-lighter;
+}
+
+.our-clients__box{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 39px;
+  margin-bottom: 354px;
+}
+
+.our-clients__preview{
+  width: 324px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.02);
+  padding: 20px;
+  //position: absolute;
+}
+
+.our-clients__preview-title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 11px;
+}
+
+.our-clients__preview-title-foto{
+  border-radius: 50%;
+  margin-right: 23px;
+}
+
+.our-clients__preview-title h4{
+  font-size: 18px;
+  line-height: 23px;
+  color: $color-text-dark;
+  font-family: $heading-font;
+}
+
+.our-clients__preview p{
+  font-size: 13px;
+  line-height: 23px;
+  color: $color-text-the-lightest;
+  margin-bottom: 63px;
+}
+
+.our-clients__preview-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: $color-site;
+  box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+  width: 293px;
+  height: 54px;
+  padding: 11px 13px;
+}
+
+.our-clients__preview-info-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.our-clients__preview-info span{
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $color2;
+  margin-left: 15px;
+  //display: flex;
+}
+
+.our-clients__preview-info-line{
+
+}

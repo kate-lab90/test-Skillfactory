@@ -1,0 +1,29 @@
+
+/*
+.leave-a-request__items{
+  list-style-type: none; !* Убираем исходные маркеры *!
+  counter-reset:  item; !* Обнуляем счетчик списка *!
+}
+
+.leave-a-request__items li:nth-child(-n+9)::before {
+  content: '0' counter(item);
+  counter-increment: item; !* Задаём имя счетчика *!
+  color: $color2;
+  border-radius: 50%;
+  background-color: $color-site;
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: 21px;
+  margin-bottom: 102px;
+}
+
+.leave-a-request__items li:nth-child(n+10)::before {
+  content: counter(item);
+  counter-increment: item; !* Задаём имя счетчика *!
+}
+
+.leave-a-request__items li{
+  margin-bottom: 114px;
+}
+
+ */

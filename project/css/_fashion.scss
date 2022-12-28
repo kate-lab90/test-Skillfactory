@@ -1,0 +1,61 @@
+.fashion{
+  background-image: url("../img/bg-room.jpg");
+  background-size: cover;
+  margin-bottom: 110px;
+}
+
+.fashion__content{
+  display: flex;
+  justify-content: space-between;
+  height: 864px;
+}
+
+.fashion-list__title{
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: $color-site;
+  margin-top: 137px;
+  margin-bottom: 47px;
+
+}
+
+.fashion-list__item{
+  list-style-type: none;
+
+}
+
+.fashion-list__item li{
+  margin-bottom: 25px;
+}
+
+.fashion-list__item a{
+  text-decoration: none;
+  color: $color2;
+}
+
+.fashion-picture{
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;*/
+  box-sizing: border-box;
+  margin-left: 77px;
+  //position: absolute;
+  display: flex;
+
+}
+
+.fashion-picture>div>img:first-of-type{
+  margin-bottom: 39px;
+}
+
+.fashion-picture-right{
+  margin-top: -50px;
+  //position: relative;
+}
+
+.fashion-picture-left{
+  margin-top: -112px;
+  //position: relative;
+
+}

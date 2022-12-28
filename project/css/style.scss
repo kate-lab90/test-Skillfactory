@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Yeseva+One&display=swap');
+
+@import "param";
+@import "header";
+@import "completed-projects";
+@import "normalize.css";
+@import "online-control";
+@import "types-of-repair";
+@import "leave-a-request";
+@import "fashion";
+@import "our-clients";
+@import "contacts";
+@import "footer";
+
+@import "adaptiv";
+
+html{
+  height: 100%;
+}
+
+.wrapper-general{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body{
+  height: 100%;
+  margin: 0;
+  font-family: $base-font;
+}
+
+body *{
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.header{
+  background-color: $color3;
+  font-size: 11px;
+  height: 83px;
+  padding-top: 16px;
+  line-height: 15px;
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wrapper{
+  max-width: $with-site;
+  margin: 0 auto;
+}
+
+.logo{
+  color: $color-site;
+}
+
+.logo:hover{
+  color: $color2;
+}
+
+.header-navigation{
+  display: flex;
+}
+
+.header-navigation li{
+  margin-right: 47px;
+  list-style-type: none;
+}
+
+.header-navigation a{
+  color: $color2;
+}
+
+.header-navigation a:hover{
+  color: $color-site;
+}
+
+.header-phone{
+  color: $color-site;
+  text-decoration: underline;
+          //border-bottom: 1px solid $color-site;
+}
+
+.header-phone:hover{
+  color: $color2;
+}
+
+.button {
+  text-transform: uppercase;
+  color: $color2;
+  background: $color-site;
+  border-radius: 2px;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border: none;
+}
+
+.button:hover{
+  background: $color2;
+  color: $color-site;
+  border: 1px solid $color-site;
+  transition: 0.5s;
+}
+
+.button__header{
+  padding: 20px 33px;
+  width: 207px;
+  height: 51px;
+  font-size: 11px;
+}
+
+.hero{
+  background-image: url("../img/room.jpg");
+  height: 707px;
+  background-size: cover;
+  padding-top: 194px;
+  position: relative;
+}
+
+.hero-wrapper{
+  max-width: 515px;
+  z-index: 1;
+  position: relative;
+}
+
+.title{
+  font-family: $heading-font;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  margin: 0;
+  color: $color2;
+}
+
+.title-city{
+  color: $color-site;
+}
+
+.hero-text{
+  font-size: 22px;
+  line-height: 36px;
+  color: $color2;
+}
+.hero__button{
+  padding: 20px 42px;
+  border: 1px solid $color-site;
+  font-size: 11px;
+}
+
+.hero-button a{
+  color: $color2;
+  display: block;
+}
+.hero__button_white{
+  background: none;
+  border: 1px solid $color2;
+  margin-left: 20px;
+}
+
+.overlay{
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+main{
+  flex: 1 1 auto;
+}
+
+
+/*# sourceMappingURL=style.css.map */

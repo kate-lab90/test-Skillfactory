@@ -7,7 +7,7 @@
 .fashion__content{
   display: flex;
   justify-content: space-between;
-  height: 864px;
+  max-height: 864px;
 }
 
 .fashion-list__title{
@@ -17,16 +17,18 @@
   color: $color-site;
   margin-top: 137px;
   margin-bottom: 47px;
-
 }
 
 .fashion-list__item{
   list-style-type: none;
-
 }
 
 .fashion-list__item li{
   margin-bottom: 25px;
+}
+
+.fashion-list__item a:hover{
+  color: $color-site;
 }
 
 .fashion-list__item a{
@@ -34,15 +36,14 @@
   color: $color2;
 }
 
+.fashion-slider__mobile{
+  display: none;
+}
+
 .fashion-picture{
-  /*display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;*/
   box-sizing: border-box;
   margin-left: 77px;
-  //position: absolute;
   display: flex;
-
 }
 
 .fashion-picture>div>img:first-of-type{
@@ -51,11 +52,8 @@
 
 .fashion-picture-right{
   margin-top: -50px;
-  //position: relative;
 }
 
 .fashion-picture-left{
   margin-top: -112px;
-  //position: relative;
-
 }

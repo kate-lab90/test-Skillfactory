@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Yeseva+One&display=swap');
 
+
 @import "param";
 @import "header";
 @import "completed-projects";
@@ -13,7 +14,7 @@
 @import "contacts";
 @import "footer";
 
-@import "adaptiv";
+
 
 html{
   height: 100%;
@@ -176,5 +177,6 @@ main{
   flex: 1 1 auto;
 }
 
+@import "adaptiv";
 
 /*# sourceMappingURL=style.css.map */

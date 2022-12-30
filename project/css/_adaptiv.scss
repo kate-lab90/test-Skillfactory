@@ -2,7 +2,8 @@
 @media screen and (max-width: 1300px){
 
   .wrapper{
-    max-width: 600px;
+    max-width: 900px;
+    padding: 0 18px 0 18px;
   }
 
   .header{
@@ -29,11 +30,426 @@
   .title{
     font-size: 23px;
     line-height: 31px;
+    margin-bottom: 16px;
   }
 
   .hero-text{
     font-size: 14px;
     line-height: 19px;
+    margin-bottom: 32px;
   }
 
+  .hero__button{
+    display: block;
+    min-width: 338px;
+  }
+
+  .hero__button_white{
+    margin-left: 0;
+    margin-top: 26px;
+  }
+
+  //completed-projects
+
+  .completed-projects{
+    background-color: $color-text-dark;
+    height: 650px;
+  }
+
+  .completed-projects-slider{
+    margin-top: 0;
+  }
+
+  .completed-projects-slider-picture{
+    display: none;
+  }
+
+  .completed-projects-slider-info h2{
+    text-align: center;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+    padding-top: 36px;
+    margin-bottom: 22px;
+  }
+
+  .completed-projects-slider-info p{
+    font-size: 11px;
+    line-height: 17px;
+    text-align: center;
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-bottom: 36px;
+  }
+
+  .completed-projects__box{
+    position: absolute;
+    display: flex;
+  }
+
+
+  .completed-projects-slider__mobile{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .completed-projects-slider__mobile button{
+    position: relative;
+    border-radius: 50%;
+    border: none;
+    background-color: #E3B873;
+    width: 36px;
+    height: 36px;
+    margin-top: 103px;
+    margin-left: 14px;
+  }
+
+  .button-box__left img{
+    transform: rotate(-180deg);
+  }
+
+  .completed-projects-slider-info-box{
+    margin-top: 152px;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .completed-projects__btn-rectangle{
+    display: none;
+  }
+
+  .completed-projects-slider__item{
+    margin-right: 4px;
+    margin-bottom: 27px;
+  }
+
+  .completed-projects-slider__item h3{
+    margin-bottom: 11px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .repair{
+    margin-right: 44px;
+  }
+
+  //online-control
+
+  .online-control{
+    margin-top: 0;
+    background-color: $color-text-dark;
+    border: 0;
+    padding-top: 85px;
+    position: relative;
+  }
+
+  .online-control__title{
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .online-control-repair-video__btn{
+    width: 37px;
+    height: 37px;
+    margin-top: 68px;
+  }
+
+  .online-control-repair-video__btn img{
+    width: 12px;
+  }
+
+  .online-control-line{
+    margin-top: 28px;
+  }
+
+  .online-control p{
+    font-size: 11px;
+    line-height: 19px;
+    color: $color2;
+  }
+
+  .online-control-form__box{
+    display: block;
+  }
+
+  .online-control-form{
+    padding-bottom: 88px;
+  }
+
+  .online-control-form label{
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 0;
+    margin-bottom: 62px;
+  }
+
+  .online-control-form input{
+    width: 340px;
+    background-color: $color-text-dark;
+    color: $color2;
+    border-bottom: 1px solid $color2;
+  }
+
+  .online-control-form .name{
+    margin-bottom: 63px;
+  }
+
+  .online-control-form input::placeholder{
+    color: $color2;
+  }
+
+  .online-control__button{
+    display: none;
+  }
+
+  .online-control__button-mob{
+    width: 340px;
+    height: 51px;
+    font-size: 13px;
+    padding-top: 5px;
+    position: absolute;
+    margin-top: -24px;
+  }
+
+  .online-control-form__checkbox{
+    margin-top: 28px;
+    text-align: left;
+  }
+
+  .checkbox-text{
+    margin-left: 8px;
+    color: $color2;
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  //types-of-repair
+
+  .types-of-repair{
+    background-image: none;
+    //display: none;
+  }
+
+  .types-of-repair__title{
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .types-of-repair__box{
+    flex-wrap: wrap;
+  }
+
+  .types-of-repair__box > div:nth-child(2){
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .types-of-repair-preview{
+    margin-bottom: 195px;
+  }
+
+  .types-of-repair-preview img{
+    max-width: 340px;
+  }
+
+  .types-of-repair-preview-text{
+    margin-left: 0;
+    padding-top: 21px;
+    padding-left: 31px;
+    width: 270px;
+    height: 240px;
+    line-height: 22px;
+  }
+
+  .types-of-repair-preview-text h3 {
+    margin-bottom: 10px;
+  }
+
+  .types-of-repair-preview__button{
+    margin-top: 4px;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 600;
+  }
+
+  .types-of-repair__request{
+    //display: none;
+  }
+
+  .types-of-repair__request-box{
+    display: none;
+  }
+
+  .types-of-repair__request-container{
+    display: none;
+  }
+
+  //fashion
+
+  .fashion{
+    background-image: none;
+    margin-top: 892px;
+    margin-bottom: 102px;
+  }
+
+  .fashion-list__item{
+    display: none;
+  }
+
+  .fashion-slider__mobile{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fashion-slider__mobile-box{
+    position: absolute;
+  }
+
+  .fashion-slider__mobile button{
+    position: relative;
+    border-radius: 50%;
+    border: none;
+    background-color: #E3B873;
+    width: 36px;
+    height: 36px;
+    margin-top: 103px;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  .fashion__content{
+    display: block;
+  }
+
+  .fashion-picture{
+    display: none;
+  }
+
+  /*.fashion-picture-right img:nth-child(2){
+    display: none;
+  }
+
+  .fashion-picture-left{
+    display: none;
+  }*/
+
+  //our-clients
+
+  .our-clients{
+    display: none;
+  }
+
+  //contacts
+
+  .contacts{
+    background-color: $color3;
+    background-image: none;
+  }
+
+  .contacts p{
+    margin-top: 35px;
+  }
+
+  .contacts:before{
+    background: none;
+  }
+
+  .form h4{
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .contacts__form{
+    margin-top: 0;
+    height: 562px;
+    width: 340px;
+  }
+
+  .contacts__form-wrapper{
+    margin-top: -611px;
+    max-width: 340px;
+  }
+
+  .contacts__form-box{
+    display: block;
+  }
+
+  .contacts__form-box .name{
+    margin-right: 0;
+  }
+
+  .contacts__form-title{
+    margin-bottom: 51px;
+  }
+
+  .contacts__form-box input{
+    width: 340px;
+    margin-bottom: 63px;
+  }
+
+  .question{
+    width: 340px;
+    margin-bottom: 21px;
+  }
+
+  .contacts__content p{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+  }
+
+  .contacts__form-wrapper{
+    margin: 0;
+  }
+
+  .contacts__iframe{
+    display: none;
+  }
+
+  .contacts__iframe-mobile{
+    min-width: 340px;
+    min-height: 210px;
+    text-align: center;
+    border: none;
+    filter: grayscale(100%) brightness(90%);
+
+  }
+
+  .contacts__form-checkbox{
+    margin-left: 0;
+  }
+
+  .contacts__form-btn{
+    margin-top: 47px;
+    margin-left: 0;
+    width: 340px;
+    margin-bottom: 20px;
+  }
+
+  .form input{
+    border-bottom: 1px solid $color2;
+  }
+
+  .contacts__link img{
+    width: 39px;
+    height: 39px;
+  }
+
+  //footer
+
+  .footer{
+    display: none;
+  }
+
+
 }
+
+
+
+
+
+
+
+
